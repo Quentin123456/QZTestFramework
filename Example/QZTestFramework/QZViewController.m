@@ -7,6 +7,7 @@
 //
 
 #import "QZViewController.h"
+#import <QZTestFramework/QZTestFramework.h>
 
 @interface QZViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [QZGCD asyncConcurrent];
 }
 
 - (void)didReceiveMemoryWarning

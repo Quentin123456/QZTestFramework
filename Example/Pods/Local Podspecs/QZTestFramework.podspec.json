@@ -1,0 +1,24 @@
+{
+  "name": "QZTestFramework",
+  "version": "1.0.0",
+  "summary": "A framework for GCD testing.",
+  "description": "It can privide GCD testing framework inner your application.",
+  "homepage": "https://github.com/Quentin123456/QZTestFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Quentin123456": "quentinzang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Quentin123456/QZTestFramework.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "QZTestFramework/Classes/**/*",
+  "frameworks": "UIKit"
+}

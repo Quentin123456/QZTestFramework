@@ -1,0 +1,16 @@
+PODS:
+  - QZTestFramework (1.0.0)
+
+DEPENDENCIES:
+  - QZTestFramework (from `../`)
+
+EXTERNAL SOURCES:
+  QZTestFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZTestFramework: 1f228bcf25714e1fd9b45d83e53cbb19b00e11ad
+
+PODFILE CHECKSUM: 3eeefc9a54051d160a15ebddd7cbd6c3aaa0dc98
+
+COCOAPODS: 1.7.5
