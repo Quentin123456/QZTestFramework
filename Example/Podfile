@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QZTestFramework_Example' do
+  pod 'QZTestFramework', :path => '../'
+
+  target 'QZTestFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
